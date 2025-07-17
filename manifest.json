@@ -1,0 +1,10 @@
+{
+  "name": "Costi Trasporto",
+  "short_name": "Trasporti",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Calcola i costi di trasporto per prodotto e regione",
+  "icons": [],
+  "theme_color": "#007700"
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Costi Trasporto</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚚 Costi Trasporto</h1>
+    <label for="regione">Regione:</label>
+    <select id="regione">
+      <option value="">Seleziona una regione</option>
+    </select>
+
+    <label for="modello">Modello:</label>
+    <select id="modello">
+      <option value="">Seleziona un modello</option>
+    </select>
+
+    <div id="risultato" class="risultato"></div>
+  </div>
+  <script src="trasporti_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
